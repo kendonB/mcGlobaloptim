@@ -1,0 +1,17 @@
+export("multiStartoptim")
+
+importFrom(randtoolbox, SFMT) 
+
+importFrom(randtoolbox, sobol)
+
+importFrom(randtoolbox, torus)
+
+importFrom(snow, makeCluster)
+
+importFrom(snow, clusterExport)
+
+importFrom(snow, stopCluster)
+
+importFrom(snow, parSapply)
+
+importFrom(snow, parRapply)
